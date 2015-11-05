@@ -1,0 +1,18 @@
+// tcmdl.idl : IDL source for tcmdl
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (tcmdl.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(10D7F6FA-C476-4494-B30E-5CA6EA74D1B4),
+	version(1.0),
+]
+library tcmdlLib
+{
+	importlib("stdole2.tlb");
+};
+

@@ -1,0 +1,18 @@
+// tcconn.idl : IDL source for tcconn
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (tcconn.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(443E9B68-B76B-40DA-8579-23CBB289A4DE),
+	version(1.0),
+]
+library tcconnLib
+{
+	importlib("stdole2.tlb");
+};
+
