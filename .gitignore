@@ -2,3 +2,16 @@
 /.vs/tcnotifier/v14/.suo
 /*.opensdf
 /*.sdf
+/tcconn/Debug
+/tcmdl/Debug
+/ipch/NETMDL-a49f49c8/NETMDL-54052650.ipch
+/ipch/TCCONN-57376c26/TCCONN-8458c8f1.ipch
+/tcconn/netmdl_contract_i.c
+/tcconn/netmdl_contract_i.h
+/tcconn/netmdl_contract_i_p.c
+/tcconn/objmdl_contract_i.c
+/tcconn/objmdl_contract_i.h
+/tcconn/objmdl_contract_i_p.c
+/tcconn/tcconn_contract_i.c
+/tcconn/tcconn_contract_i.h
+/tcconn/tcconn_contract_i_p.c

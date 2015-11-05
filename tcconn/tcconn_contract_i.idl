@@ -1,0 +1,13 @@
+import "oaidl.idl";
+import "ocidl.idl";
+import "objmdl_contract_i.idl";
+
+[
+    object,
+    uuid(42202850-E54A-4F43-B3B7-D17D55D9DC3A),
+    pointer_default(unique)
+]
+interface ITeamCityConnection : IUnknown
+{
+    HRESULT Sample();
+};

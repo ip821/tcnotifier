@@ -6,6 +6,8 @@
 
 import "oaidl.idl";
 import "ocidl.idl";
+import "tcconn_contract_i.idl";
+import "netmdl_contract_i.idl";
 
 [
 	uuid(443E9B68-B76B-40DA-8579-23CBB289A4DE),
