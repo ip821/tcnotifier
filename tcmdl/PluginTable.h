@@ -1,7 +1,7 @@
 #pragma once
 
 #include "..\ObjMdl\PluginTableBase.h"
-#include "tcconn_i.h"
+#include "tcmdl_i.h"
 
 class ATL_NO_VTABLE CPluginTable :
 	public CComObjectRootEx<CComSingleThreadModel>,

@@ -4,7 +4,7 @@
 
 
  /* File created by MIDL compiler version 8.00.0603 */
-/* at Thu Nov 05 09:59:32 2015
+/* at Fri Nov 06 09:37:48 2015
  */
 /* Compiler settings for tcconn.idl:
     Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 8.00.0603 
@@ -41,6 +41,30 @@
 
 /* Forward Declarations */ 
 
+#ifndef __PluginTable_FWD_DEFINED__
+#define __PluginTable_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class PluginTable PluginTable;
+#else
+typedef struct PluginTable PluginTable;
+#endif /* __cplusplus */
+
+#endif 	/* __PluginTable_FWD_DEFINED__ */
+
+
+#ifndef __TeamCityConnection_FWD_DEFINED__
+#define __TeamCityConnection_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class TeamCityConnection TeamCityConnection;
+#else
+typedef struct TeamCityConnection TeamCityConnection;
+#endif /* __cplusplus */
+
+#endif 	/* __TeamCityConnection_FWD_DEFINED__ */
+
+
 /* header files for imported files */
 #include "oaidl.h"
 #include "ocidl.h"
@@ -61,6 +85,22 @@ extern "C"{
 
 
 EXTERN_C const IID LIBID_tcconnLib;
+
+EXTERN_C const CLSID CLSID_PluginTable;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("6EA78630-DC6D-4D2B-91F0-686B260F29D6")
+PluginTable;
+#endif
+
+EXTERN_C const CLSID CLSID_TeamCityConnection;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("7727F197-99D3-4713-A26B-2A8196C6EB5C")
+TeamCityConnection;
+#endif
 #endif /* __tcconnLib_LIBRARY_DEFINED__ */
 
 /* Additional Prototypes for ALL interfaces */

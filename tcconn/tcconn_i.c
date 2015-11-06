@@ -6,7 +6,7 @@
 
 
  /* File created by MIDL compiler version 8.00.0603 */
-/* at Thu Nov 05 09:59:32 2015
+/* at Fri Nov 06 09:37:48 2015
  */
 /* Compiler settings for tcconn.idl:
     Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 8.00.0603 
@@ -68,6 +68,12 @@ typedef IID CLSID;
 #endif !_MIDL_USE_GUIDDEF_
 
 MIDL_DEFINE_GUID(IID, LIBID_tcconnLib,0x443E9B68,0xB76B,0x40DA,0x85,0x79,0x23,0xCB,0xB2,0x89,0xA4,0xDE);
+
+
+MIDL_DEFINE_GUID(CLSID, CLSID_PluginTable,0x6EA78630,0xDC6D,0x4D2B,0x91,0xF0,0x68,0x6B,0x26,0x0F,0x29,0xD6);
+
+
+MIDL_DEFINE_GUID(CLSID, CLSID_TeamCityConnection,0x7727F197,0x99D3,0x4713,0xA2,0x6B,0x2A,0x81,0x96,0xC6,0xEB,0x5C);
 
 #undef MIDL_DEFINE_GUID
 

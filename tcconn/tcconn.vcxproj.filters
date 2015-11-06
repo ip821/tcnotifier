@@ -26,6 +26,9 @@
     <Filter Include="PluginTable">
       <UniqueIdentifier>{73aef0f3-3f4f-4f42-b389-d16e8a4de67c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TeamCityConnection">
+      <UniqueIdentifier>{0bd43daf-214c-4157-90d0-6ec14fb96c3d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -54,6 +57,9 @@
     </ClCompile>
     <ClCompile Include="PluginTable.cpp">
       <Filter>PluginTable</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamCityConnection.cpp">
+      <Filter>TeamCityConnection</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +95,9 @@
     </ClInclude>
     <ClInclude Include="PluginTable.h">
       <Filter>PluginTable</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamCityConnection.h">
+      <Filter>TeamCityConnection</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

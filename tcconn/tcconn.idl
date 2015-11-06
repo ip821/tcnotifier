@@ -16,5 +16,21 @@ import "netmdl_contract_i.idl";
 library tcconnLib
 {
 	importlib("stdole2.tlb");
+
+    [
+        uuid(6EA78630-DC6D-4D2B-91F0-686B260F29D6)
+    ]
+    coclass PluginTable
+    {
+        [default] interface IPluginTable;
+    };
+
+    [
+        uuid(7727F197-99D3-4713-A26B-2A8196C6EB5C)
+    ]
+    coclass TeamCityConnection
+    {
+        [default] interface ITeamCityConnection;
+    };
 };
 

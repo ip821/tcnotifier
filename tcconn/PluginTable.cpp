@@ -4,6 +4,7 @@
 
 CPluginTable::CPluginTable(void)
 {
+    ASSERT_IF_FAILED(AddObject(CLSID_TeamCityConnection, L"TeamCity connection"));
 }
 
 HRESULT CPluginTable::FinalConstruct()
